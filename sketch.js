@@ -115,7 +115,7 @@ function draw() {
     }
     player.velocityY=player.velocityY+0.9;
 
-    if(score===150){
+    if(score===550){
       gameState="win";
       loseM.play();
     }
